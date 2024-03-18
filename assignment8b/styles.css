@@ -1,0 +1,51 @@
+#logo {
+    padding-top: 1em;
+}
+
+.nav {
+    padding-top: 2em;
+}
+
+main {
+    border-top-style: solid;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#main2 {
+    padding-top: 6em;
+    padding-bottom: 2em;
+}
+
+footer {
+    border-top-style: solid;
+    text-align: right;
+}
+
+.carousel-caption {
+    color: black;
+    top: 100%
+}
+
+.carousel-inner { 
+    overflow: visible;
+    padding-bottom: 10em;
+}
+
+#contact {
+    border-top-style: solid;
+    margin-top: 1em;
+    padding-top: 2em;
+}
+
+#palkki {
+    padding-top: 1em;
+}
+
+#button {
+    text-align: end;
+}
+
+.keskita {
+    text-align: center;
+}
