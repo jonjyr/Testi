@@ -1,0 +1,19 @@
+#upper {
+    background-color: rgb(220, 219, 219);
+    padding: 5em;
+    text-align: center;
+}
+
+#otsikko {
+    font-size: xx-large;
+    background-color: gray;
+    padding: 5px;
+}
+
+#vilit {
+    padding-top: 2em;
+}
+
+#napit {
+    padding-top: 2em;
+}
