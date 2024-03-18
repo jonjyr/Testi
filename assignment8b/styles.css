@@ -49,3 +49,8 @@ footer {
 .keskita {
     text-align: center;
 }
+
+#carouselExampleCaptions {
+    padding-left: 20%;
+    padding-right: 20%;
+}
