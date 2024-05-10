@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styletable.css">
+</head>
+<body>
+    <h2>1.</h2>
+    <table id="ankat">
+        <caption>Ankka family information table</caption>
+        <tr>
+            <th colspan="2">First and last name</th>
+            <!-- rowspan="2" olisi alaspäin -->
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Aku</td>
+            <td>Ankka</td>
+            <td>aku.ankka@ankkalinna.com</td>
+        </tr>
+        <tr>
+            <td>Tupu</td>
+            <td>Ankka</td>
+            <td rowspan="3">tupuhupulupu.ankka@ankkalinna.com</td>
+        </tr>
+        <tr>
+            <td>Hupu</td>
+            <td>Ankka</td>
+        </tr>
+        <tr>
+            <td>Lupu</td>
+            <td>Ankka</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h2>2.</h2>
+    <form>
+        <fieldset>
+            <legend>Create new user:</legend>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" required><br>
+            <label for="text">Comment</label><br>
+            <textarea name="text" id="text" rows="4" cols="80"></textarea><br><br>
+            <input type="checkbox" id="cbox" name="cbox">
+            <label for="cbox">Signup for newsletter</label><br><br>
+            <select name="sex" id="sex">
+                <option value="question">You are?</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="none">Prefer not to say</option>
+            </select>
+        <br><br>
+        <input type="submit" value="Add new user">
+        </fieldset>
+    </form>
+    
+</body>
+</html>
