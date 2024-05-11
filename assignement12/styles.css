@@ -1,0 +1,42 @@
+.navbar {
+    background-image: linear-gradient(to top, white, pink, violet);
+    text-shadow: 0px 0px rgba(52, 54, 58, 0.327);
+}
+
+.nav-item > a:hover {
+    font-weight: bold;
+    transition: 50ms;
+}
+
+footer {
+    text-shadow: 0px 0px rgba(52, 54, 58, 0.327);
+    text-align: center;
+    background-image: linear-gradient(to bottom, white, pink, violet);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+body {
+    background-image: linear-gradient(to top, white, pink, white );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+}
+
+.col-sm-6 {
+    padding-bottom: 10px;
+}
+
+.container, #main {
+    padding-bottom: 20%;
+}
+
+img {
+    padding-top: 10px;
+}
+
+#otsikko {
+    padding: 10px;
+}
