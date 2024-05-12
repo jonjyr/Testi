@@ -15,8 +15,6 @@ footer {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 1px;
-    position: fixed;
-    bottom: 0;
 }
 
 body {
@@ -25,6 +23,8 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .col-sm-6 {
@@ -32,7 +32,8 @@ body {
 }
 
 .container, #main {
-    padding-bottom: 51px;
+    padding-bottom: 10px;
+    flex-grow: 1;
 }
 
 img {
@@ -54,4 +55,16 @@ textarea {
 
 .ekuva {
     width: 90%;
+}
+
+.col-sm-6 > a:hover {
+    color: red;
+}
+
+p > a:hover {
+    color: red;
+}
+
+.navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
